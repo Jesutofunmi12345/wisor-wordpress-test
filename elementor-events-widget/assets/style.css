@@ -1,0 +1,55 @@
+/* Elementor Events Widget Styles */
+.events-list {
+    list-style: none;
+    padding: 0;
+}
+
+.events-list li {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.events-list li strong {
+    display: block;
+    font-size: 18px;
+    color: #333;
+}
+
+.events-list li p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Event Management Form */
+.event-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-form input, .event-form textarea, .event-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.event-form button {
+    background: #0073aa;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.event-form button:hover {
+    background: #005177;
+}
